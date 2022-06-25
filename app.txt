@@ -1,0 +1,25 @@
+import './App.css';
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
+import SideBar from './components/SideBar'
+import SubMenu from './components/SubMenu'
+
+
+
+function App() {
+ 
+    
+
+  return (
+
+ <div>
+   <NavBar/>
+   <Hero/>
+   <SideBar/>
+   <SubMenu/>
+ </div>
+
+  
+  )
+  }
+export default App;
